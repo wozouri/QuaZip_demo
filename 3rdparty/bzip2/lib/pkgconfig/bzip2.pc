@@ -1,0 +1,11 @@
+prefix=C:/Qt/LIB/bzip2/out/install/x64-Release
+exec_prefix=C:/Qt/LIB/bzip2/out/install/x64-Release
+bindir=C:/Qt/LIB/bzip2/out/install/x64-Release/bin
+libdir=C:/Qt/LIB/bzip2/out/install/x64-Release/lib
+includedir=C:/Qt/LIB/bzip2/out/install/x64-Release/include
+
+Name: bzip2
+Description: Lossless, block-sorting data compression
+Version: 1.1.0
+Libs: -L${libdir} -lbz2
+Cflags: -I${includedir}
